@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+    justify-content: right;
+}
+
+body{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register{
+  max-width: 500px;
+  width: 100vw;
+  height: 500px;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  margin-left: 19%;
+  margin-top: 5%;
+  text-align: center;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+}
+
+.register h2{
+  color: #000000;
+  font-size: large;
+  margin-left: -60%;
+}
+
+.register span{
+  color: #adb5bd; 
+  justify-content: center;
+  margin-left: -100%;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin-left: -300%;
+  margin-top: 20%;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+  color: #000000;
+
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
+
+.main-div{
+  height: 5vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: center;
+}
+#main-h1-ad{
+  margin-top: -20%;
+  margin-left: 50%;
+  color:#e9ecef;
+}
+
+#main-h1-dis{
+  margin-top: -20%;
+  margin-left: 10%;
+  color:#e9ecef;
+
+}
